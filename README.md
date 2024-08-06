@@ -1,2 +1,2 @@
 # Whine4me
-Final project for Per Scholas
+Capstone project for Per Scholas

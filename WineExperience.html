@@ -2,10 +2,27 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Wine Experience</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5 Star Review System</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
+<div class="review-container">
+    <h2>Leave a Review</h2>
+    <div class="stars">
+        <span class="star" data-value="1">★</span>
+        <span class="star" data-value="2">★</span>
+        <span class="star" data-value="3">★</span>
+        <span class="star" data-value="4">★</span>
+        <span class="star" data-value="5">★</span>
+    </div>
+    <textarea id="reviewText" placeholder="Write your review here..."></textarea>
+    <button id="submitReview">Submit</button>
+</div>
+<div id="reviews">
+    <h2>Reviews</h2>
+    <ul id="reviewsList"></ul>
+</div>
+<script src="script.js"></script>
 </body>
 </html>
